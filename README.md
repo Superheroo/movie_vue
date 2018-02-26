@@ -1,4 +1,4 @@
-[测试连接](http://liangyingcong.gitee.io/moives_town/dist/index.html)
+[测试连接](https://github.com/Superheroo/movie_vue/dist/index.html)
 
 #蓝景技术webpack脚手架
 支持最新的webpack3.4.1打包   
