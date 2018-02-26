@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<body>
+<button v-for="m in data"@click="location(m.path)"></button>
+<router-view></router-view>
+<script type="text/javascript">
+export default {
+	methods: {
+		Location.function(p) {
+			//通过$route.push的方法，传路径
+			//和location.href的用法一致，直接传地址就可以使用
+
+			this.$route.push( {
+				path:p, //跳转路径
+				query: {
+					id: 4057,
+				}
+
+			}
+
+			);
+			//改变 title的状态     $store.commit(自定义事件，传参)
+			this.$store.commit("toggleTitle", p)
+		}
+
+	}
+
+}
+
+data:function() {
+	return {
+		menu:[ {
+			name: "首页", path:"/home",
+		}
+
+		{
+			name: "影片", path:"/home",
+		}
+
+		{
+			name: "影院", path:"/home",
+		}
+
+		, ]
+	}
+
+}
+
+</script>
+</body>
+</html>
