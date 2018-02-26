@@ -8,7 +8,7 @@ import Index from "../views/index.vue";
 import app from "../views/app.vue";
 
 //作为引入 coming-soon.vue 文件作为路由
-import coming_soon from "../views/ coming_soon.vue";
+import coming_soon from "../views/coming_soon.vue";
 
 import now_playing from "../views/now_playing.vue";
 
