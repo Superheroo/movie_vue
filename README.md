@@ -1,4 +1,4 @@
-[测试连接](https://github.com/Superheroo/movie_vue/dist/index.html)
+[测试连接](https://superheroo.github.io/movie_vue/dist/index.html)
 
 
 ##目录说明
