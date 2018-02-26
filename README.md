@@ -1,9 +1,5 @@
 [测试连接](https://github.com/Superheroo/movie_vue/dist/index.html)
 
-#蓝景技术webpack脚手架
-支持最新的webpack3.4.1打包   
-适用于单页应用、多页应用或vue应用
-> **必须保留原始目录结构，千万不要删除任何的文件夹**
 
 ##目录说明
 ```
